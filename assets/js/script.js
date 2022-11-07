@@ -1,9 +1,7 @@
-//Aula13 - Condicionais if - else
+let idade = "20";
 
-let idade = 17;
+let mensagem = `Você tem ${idade} anos`;
 
-if (idade >= 18){
-    console.log("Você é maior de idade");
-} else {
-    console.log("Você é menor de idade");
+if (idade === 20){ //=== verifica o tipo da varivel
+    console.log(mensagem)
 }
