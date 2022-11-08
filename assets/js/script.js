@@ -1,13 +1,18 @@
-let isMember = true;
+let profession = "fiscal"
 
-let shipping = isMember ? 2 : 10;
+console.log("Profissão: " + profession)
 
-console.log(isMember ? 'Você é mebro': 'Você não é membro')
-console.log("Frete: " + shipping);
-
-
-let age = 90
-
-let isAdult = ((age >=18) ? 'Sim' : 'Não');
-
-console.log(isAdult);
+switch(profession){
+    case 'fiscal':
+        console.log("Sua camisa será VERDE");
+        break;
+    case 'bombeiro':
+        console.log("Sua camisa será VERMELHA");
+        break;
+    case 'policial':
+        console.log("Sua camisa será AZUL");
+        break;
+    default:
+        console.log("Sua camisa será PRETA");
+        break;
+}
