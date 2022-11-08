@@ -1,18 +1,13 @@
-let profession = "fiscal"
-
-console.log("Profissão: " + profession)
-
-switch(profession){
-    case 'fiscal':
-        console.log("Sua camisa será VERDE");
-        break;
-    case 'bombeiro':
-        console.log("Sua camisa será VERMELHA");
-        break;
-    case 'policial':
-        console.log("Sua camisa será AZUL");
-        break;
-    default:
-        console.log("Sua camisa será PRETA");
-        break;
+function somar(n1, n2){
+    let resultado = n1 + n2;
+    console.log('Resultado: ' + resultado)
 }
+somar(10,15);
+
+function nomeCompleto(nome, sobrenome){
+    console.log(`Meu nome completo é ${nome} ${sobrenome}`);//Template String
+    
+    //console.log("Meu nome completo é " nome + ' ' + sobrenome);//String
+}
+nomeCompleto("Rodrigo", "Oliveira");
+nomeCompleto("Matheus","Suricato");
